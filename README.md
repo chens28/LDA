@@ -7,7 +7,7 @@ This repository contains the code and documentation for an empirical comparison 
 The project consists of several key stages:
 
 - **Preprocessing:** Text datasets are preprocessed (tokenization, stopwords removal, lemmatization, and bi-grams/tri-grams creation) before modeling.
-- **Training and Tuning:** We explore different configurations of the number of topics and soruce dataset for comparison between the 2 learnign algorithms. For tuning, we optimizaed for cohehernce score.
+- **Training and Tuning:** We explore different configurations of the number of topics and soruce dataset for comparison between the 2 learnign algorithms. For tuning, we optimizaed for cohehernce.
   - Train LDA model using Variational Inference with Gensim.
   - Train LDA model using Gibbs Sampling with Mallet.
 - **Evaluation:** The performance of the algorithms is evaluated using the intrusion test, leveraging Large Language Models (LLM) to assess topic quality.
